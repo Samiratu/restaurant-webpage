@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  nav a:hover {
+    color: #ccc;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+/* Stlye for display menu */
+.menu_part{
+  width: 1440px;
+  height: 500px;
+  left: 0px;
+  top: 0px;
+  
+}
+
+.menu_part .pros{
+    display: flex;
+ 
+} 
+
+
+
+.pro_1 .pro_2 .pro_3 .pro_5 {
+  display: inline-block ;
+}
+.menu_part img{
+    height: 150px;
+
+}
+
+/* form style */
+  form label {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  form input, form textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  form button {
+    margin-top: 10px;
+  }
+  
